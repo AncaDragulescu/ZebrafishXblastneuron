@@ -3,7 +3,7 @@ Testing [Blastneuron](https://pubmed.ncbi.nlm.nih.gov/26036213/) locally on 3000
 
 
 # Scope
-Use this pipeline to get interneuron similarity scores using their morphologies stored as SWC files. For more details about the theoretical basis for this project, consult project_writeup.
+Use this pipeline to get interneuron similarity scores using their morphologies stored as SWC files. For more details about the theoretical basis for this project, consult the [project writeup](https://docs.google.com/document/d/19_llG6LcqTXlHoWjnk0PRMmGcrdg2sInRmTUwVZXbxA/edit?usp=sharing).
 
 
 ## Installation (getting BlastNeuron running)
@@ -50,6 +50,9 @@ import subprocess
 
 subprocess.run(<your_query>, shell = True, capture_output = True)
 ```
+
+## Visualizations
+During this project, it is often useful to be able to quickly visualize .swc files to check that the code is working as it should. For this, I used the python library [NAVIS](https://navis.readthedocs.io/en/latest/).
 
 ## Works to cite
 
